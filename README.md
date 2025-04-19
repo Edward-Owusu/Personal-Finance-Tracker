@@ -38,3 +38,12 @@ The **Personal Finance Tracker** is a Python-based application that empowers ind
 ```bash
 git clone https://github.com/Edward-Owusu/Personal-Finance-Tracker.git
 cd Personal-Finance-Tracker
+
+
+### 📊 AI/Data Science Feature (Extra Credit)
+
+This project includes a simple linear regression forecast model that analyzes previous monthly expenses and predicts next month's spending. The forecast is visualized with a line chart using `matplotlib`.
+
+✅ Technologies used: pandas, numpy, matplotlib
+✅ Output: Predictive spending trend with actual vs forecast chart
+
