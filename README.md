@@ -40,10 +40,16 @@ git clone https://github.com/Edward-Owusu/Personal-Finance-Tracker.git
 cd Personal-Finance-Tracker
 
 
-### 📊 AI/Data Science Feature (Extra Credit)
+## AI Feature: Spending Forecast
 
-This project includes a simple linear regression forecast model that analyzes previous monthly expenses and predicts next month's spending. The forecast is visualized with a line chart using `matplotlib`.
+This project includes a basic AI/data insight feature that forecasts your next month's spending using linear regression. It analyzes past monthly expenses and generates a predicted total for the upcoming month.
 
-✅ Technologies used: pandas, numpy, matplotlib
-✅ Output: Predictive spending trend with actual vs forecast chart
+### 🧠 How It Works:
+- Uses `pandas`, `numpy`, and `matplotlib`.
+- Fetches monthly totals from the MySQL database.
+- Applies linear regression to project future spending.
+- Visualizes actual and predicted spending in a line chart.
+
+### 📊 Forecast Chart:
+![Spending Forecast](Screenshots/ai_forecast_output.jpg)
 
