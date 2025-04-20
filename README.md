@@ -12,12 +12,12 @@ The **Personal Finance Tracker** is a Python-based application that empowers ind
 
 ## 🎯 Purpose & Value
 
-- 🧾 Track your daily and monthly expenses
-- 📊 View colorful pie charts to analyze where your money goes
-- 🧠 Stay within your budget using the budget check feature
-- 📤 Export all expense data into a clean CSV file
+- 🧾 Track your daily and monthly expenses  
+- 📊 View colorful pie charts to analyze where your money goes  
+- 🧠 Stay within your budget using the budget check feature  
+- 📤 Export all expense data into a clean CSV file  
+- 🤖 Get a spending forecast using a built-in AI prediction model  
 - 💡 Simplified interface built with usability and accessibility in mind
-
 ---
 
 ## 🛠️ Technologies Used
@@ -39,6 +39,22 @@ The **Personal Finance Tracker** is a Python-based application that empowers ind
 git clone https://github.com/Edward-Owusu/Personal-Finance-Tracker.git
 cd Personal-Finance-Tracker
 
+✅ 2. Install Dependencies
+Make sure Python 3.11+ is installed. Then install the required packages:
+pip install -r requirements.txt
+
+✅ 3. Set Up MySQL Database
+Open MySQL Workbench or any MySQL GUI and run:
+CREATE DATABASE finance_tracker;
+🛠️ The expenses table is automatically created when you run the app.
+
+▶️ How to Run
+Option A: Run from Python Source Code
+python Finance_Tracker.py
+
+Option B: Run the Executable (.exe)
+Navigate to the dist/ folder and double-click Finance_Tracker.exe.
+No Python installation needed when using the .exe
 
 ## AI Feature: Spending Forecast
 
@@ -49,6 +65,10 @@ This project includes a basic AI/data insight feature that forecasts your next m
 - Fetches monthly totals from the MySQL database.
 - Applies linear regression to project future spending.
 - Visualizes actual and predicted spending in a line chart.
+
+▶️ How to Run It
+python forecast_spending.py
+
 
 ### 📊 Forecast Chart:
 ![Spending Forecast](Screenshots/ai_forecast_output.jpg)
