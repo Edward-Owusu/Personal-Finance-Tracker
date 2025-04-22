@@ -73,3 +73,10 @@ python forecast_spending.py
 ### 📊 Forecast Chart:
 ![Spending Forecast](Screenshots/ai_forecast_output.jpg)
 
+
+🎥 YouTube Video Demo
+Watch the full walkthrough and demo of the Personal Finance Tracker application:
+
+🔗 Click to Watch on YouTube
+https://www.youtube.com/watch?si=WVXO9UUyJiUfLPBb&v=rq9AvFnvuiE&feature=youtu.be
+
